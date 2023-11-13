@@ -1,0 +1,79 @@
+:root,
+::before,
+::after {
+  /* easing */
+  --ease-in: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.86, 0, 0.07, 1);
+
+  /* z-index */
+  --z-index-toast: 40;
+  --z-index-processing: 30;
+  --z-index-modal: 20;
+  --z-index-header: 10;
+  /* base size lesson card */
+  --base-size: 100px;
+
+  /* font */
+  --font-ja: 'Noto Sans JP';
+  --font-en: 'Roboto';
+  --font-default: var(--font-ja), -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* color */
+  --color-white: #ffffff;
+
+  --color-primary-light: #e6fbf6;
+  --color-primary-default: #2d8f8e;
+  --color-primary-hover: #1f7675;
+  --color-primary-active: #196766;
+
+  --color-secondary-light: #ffeeeb;
+  --color-secondary-default: #ea503b;
+  --color-secondary-hover: #d13621;
+  --color-secondary-active: #c42915;
+
+  --color-tertiary-light: #fff6d3;
+  --color-tertiary-default: #f9d82c;
+  --color-tertiary-hover: #ecc600;
+  --color-tertiary-active: #cdad06;
+
+  --color-background-light: #f7f6f9;
+  --color-background-active: #ececef;
+  --color-background-disabled: #e2e1e6;
+  --color-background-neutral: #acabaf;
+
+  --color-foreground-light: #ececef;
+  --color-foreground-sub: #919094;
+  --color-foreground-neutral: #77767a;
+  --color-foreground-default: #5f5e62;
+
+  --color-text-disabled: #c7c6ca;
+  --color-text-placeholder: #77767a;
+  --color-text-sub: #47464a;
+  --color-text-default: #303033;
+
+  --color-blue-default: #3f86e9;
+
+  --color-assort-red-default: #f97f7f;
+  --color-assort-orange-default: #f8a373;
+  --color-assort-yellow-default: #fdce55;
+  --color-assort-green-default: #aedb55;
+  --color-assort-teal-default: #63d1cf;
+  --color-assort-blue-default: #73a8f2;
+  --color-assort-purple-default: #8686d0;
+  --color-assort-magenta-default: #e879c3;
+  --color-assort-red-light: #feecec;
+  --color-assort-orange-light: #ffeeeb;
+  --color-assort-yellow-light: #fff8e5;
+  --color-assort-green-light: #f2faeb;
+  --color-assort-teal-light: #e8f8f8;
+  --color-assort-blue-light: #eaf2fd;
+  --color-assort-purple-light: #ededf8;
+  --color-assort-magenta-light: #fcebf6;
+
+  --dark-slate-blue: #6854ec;
+  --hot-pink: #ff44af;
+  --midnight-blue: #070c38;
+  --slate-blue: #2a39a3;
+  --medium-purple: #a276ff;
+}

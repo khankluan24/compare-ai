@@ -1,0 +1,71 @@
+const Introduction = () => {
+  return (
+    <section className='section-layout25'>
+      <div className='page-padding'>
+        <div className='container-large'>
+          <div className='padding-vertical'>
+            <div className='feature1-wrapper'>
+              <div className='w-layout-grid layout25_component'>
+                <div className='layout25_content'>
+                  <div className='margin-bottom margin-xsmall'>
+                    <div className='label'>Let's Dig In</div>
+                  </div>
+                  <div className='margin-bottom margin-small'>
+                    <h2 className='heading'>Start Here to Compare-AI</h2>
+                  </div>
+                  <div className='margin-bottom margin-medium'>
+                    <p className='text-size-medium text-color-white'>
+                      CompareAI is an AI platform that provides a versatile digital assistant to cater to your diverse and complex comparison needs. It utilizes
+                      artificial intelligence to understand your needs and personal preferences, providing personalized analysis and recommendations. CompareAI
+                      believes that the power of data and AI can be used to illuminate every decision, not just in business but also in everyday life. With its
+                      technology, CompareAI is committed to giving you the confidence needed to master every choice, at every moment.
+                    </p>
+                  </div>
+                </div>
+                <div className='layout25_image-wrapper'>
+                  <a
+                    href='https://www.sphere.finance/?fbclid=IwAR2AKg7qfnjPUH6AlE9Zcu-9NSjxnaJi7QhiSFLkLtcps2yqCT5Ujo5LBjw#'
+                    className='w-inline-block w-lightbox'
+                    aria-label='open lightbox'
+                    aria-haspopup='dialog'>
+                    <img
+                      src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62ab55219cbbe9277ee695cb_Screen Shot 2022-06-16 at 12.06.34 PM.png'
+                      loading='lazy'
+                      sizes='(max-width: 479px) 76vw, (max-width: 767px) 81vw, (max-width: 991px) 83vw, 37vw'
+                      srcSet='
+                      https://assets-global.website-files.com/62794603633d33e91a3daa49/62ab55219cbbe9277ee695cb_Screen%20Shot%202022-06-16%20at%2012.06.34%20PM-p-500.png  500w,
+                      https://assets-global.website-files.com/62794603633d33e91a3daa49/62ab55219cbbe9277ee695cb_Screen%20Shot%202022-06-16%20at%2012.06.34%20PM-p-800.png  800w,
+                      https://assets-global.website-files.com/62794603633d33e91a3daa49/62ab55219cbbe9277ee695cb_Screen%20Shot%202022-06-16%20at%2012.06.34%20PM.png       1017w
+                    '
+                      alt=''
+                      className='image-13'
+                    />
+                  </a>
+                </div>
+              </div>
+              <div className='w-layout-grid layout25_component is-hidden'>
+                <div className='layout25_content'>
+                  <div className='margin-bottom margin-xsmall'>
+                    <div className='label'>Go Ahead, take profits</div>
+                  </div>
+                  <div className='margin-bottom margin-small'>
+                    <h2 className='heading'>Balanced for Profit Taking with our Dynamic Tax</h2>
+                  </div>
+                  <div className='margin-bottom margin-medium'>
+                    <p className='text-size-medium text-color-white'>
+                      Our dynamic tax system ensures that no one person can cause massive swings in price. Because fees are adjusted when a transaction affects
+                      Sphere's liquidity, we're able to encourage people to take their profits in a way that benefits both the investor and the community.
+                    </p>
+                  </div>
+                </div>
+                <div className='layout25_image-wrapper'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Introduction;
