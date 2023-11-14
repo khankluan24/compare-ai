@@ -33,13 +33,7 @@ const Header = () => {
       <div data-w-id='61cdfec5-e211-c09c-6df7-d3d89ca3b67d' className='header6_background-image-wrapper'>
         <div className='image-overlay-layer'></div>
         <div className='div-block'>
-          <img
-            src={'/background-2.png'}
-            loading='lazy'
-            sizes='100vw'
-            alt=''
-            className='image transition-ele'
-          />
+          <img src={'/background-2.png'} loading='lazy' sizes='100vw' alt='' className='image transition-ele' />
         </div>
       </div>
     </div>

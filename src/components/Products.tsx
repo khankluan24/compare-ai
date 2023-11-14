@@ -23,9 +23,7 @@ const Products = () => {
             <div className='w-layout-grid layout41_component'>
               <div className='layout41_content-left'>
                 <div className='margin-bottom margin-xsmall'>
-                  <div className='label'>
-                    Products, Commitment, Community
-                  </div>
+                  <div className='label'>Products, Commitment, Community</div>
                 </div>
                 <h2 className='heading'>CompareAi vision for the future</h2>
               </div>
