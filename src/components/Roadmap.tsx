@@ -54,12 +54,9 @@ const Roadmap = () => {
                   </div>
                   <div id='w-node-_975f6764-a067-bccc-cf42-4d0fb3d2bb74-1c48dc11' className='div-block-39'>
                     <p className='text-size-medium text-color-white'>
-                      {`CompareAi's vision entails creating an ecosystem that encompasses the myriad opportunities within Artificial Intelligence, with a focus on
-                      developing the most exceptional iterations of each.`}
+                      CompareAi's vision entails creating an ecosystem that encompasses the myriad opportunities within Artificial Intelligence, with a focus on
+                      developing the most exceptional iterations of each.
                     </p>
-                    {/* <a id='w-node-c10bde2d-fec2-e68e-c2ec-71de04c13ffb-1c48dc11' href='#' className='button-primary roadmap w-button'>
-                      See the Full Compare-AI Roadmap
-                    </a> */}
                   </div>
                 </div>
               </div>
@@ -141,7 +138,7 @@ const Roadmap = () => {
                                         Core Platform Development
                                       </div>
                                       <div className='paragraph-2 w-richtext' aria-hidden='true'>
-                                        <p aria-hidden='true'>Constructing the technical infrastructure for the smart price comparison platform</p>
+                                        <p aria-hidden='true'>Constructing the technical infrastructure for the smart price comparison platform.</p>
                                       </div>
                                     </div>
                                   </div>
@@ -487,7 +484,7 @@ const Roadmap = () => {
                           </div>
                           <div className='w-dyn-list'>
                             <div role='list' className='w-dyn-items'>
-                              <div role='listitem' className='w-dyn-item'>
+                              <div role='listitem' className='w-dyn-item margin-bottom margin-medium'>
                                 <div className='highlight-item'>
                                   <div className='div-block-30'>
                                     <div className='div-block-33'>
@@ -510,7 +507,7 @@ const Roadmap = () => {
                                     <div className='div-block-34'>
                                       <div className='text-block-12'>Launching</div>
                                       <div className='paragraph-2 w-richtext'>
-                                        <p>CAI and push hard marketing.</p>
+                                        <p>$CAI and push hard marketing.</p>
                                       </div>
                                     </div>
                                   </div>
@@ -545,10 +542,10 @@ const Roadmap = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item '>
+                              <div role='listitem' className='w-dyn-item margin-bottom margin-medium'>
                                 <div className='highlight-item'>
                                   <div className='div-block-30'>
-                                    <div className='div-block-33'>
+                                    <div className='div-block-33 margin-bottom margin-large'>
                                       <div
                                         //   style='
                                         //   transform: translate3d(0px, 0px, 0px)
@@ -567,14 +564,11 @@ const Roadmap = () => {
                                     </div>
                                     <div className='div-block-34'>
                                       <div className='text-block-12'>Upgrading the UX/UI</div>
-                                      <div className='paragraph-2 w-richtext'>
-                                        <p className=''> </p>
-                                      </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item margin-top-large-cus'>
+                              <div role='listitem' className='w-dyn-item margin-bottom margin-small'>
                                 <div className='highlight-item'>
                                   <div className='div-block-30'>
                                     <div className='div-block-33'>
@@ -675,10 +669,10 @@ const Roadmap = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item' aria-hidden='true'>
+                              <div role='listitem' className='w-dyn-item margin-bottom margin-large' aria-hidden='true'>
                                 <div className='highlight-item' aria-hidden='true'>
                                   <div className='div-block-30' aria-hidden='true'>
-                                    <div className='div-block-33' aria-hidden='true'>
+                                    <div className='div-block-33 margin-bottom margin-medium' aria-hidden='true'>
                                       <div
                                         //   style='
                                         //   transform: translate3d(0px, 0px, 0px)
@@ -704,14 +698,11 @@ const Roadmap = () => {
                                       <div className='text-block-12' aria-hidden='true'>
                                         CEX listing
                                       </div>
-                                      <div className='paragraph-2 w-richtext' aria-hidden='true'>
-                                        <p className='margin-bottom-medium'> </p>
-                                      </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item margin-top-medium-cus' aria-hidden='true'>
+                              <div role='listitem' className='w-dyn-item' aria-hidden='true'>
                                 <div className='highlight-item' aria-hidden='true'>
                                   <div className='div-block-30' aria-hidden='true'>
                                     <div className='div-block-33' aria-hidden='true'>
@@ -737,11 +728,8 @@ const Roadmap = () => {
                                       </div>
                                     </div>
                                     <div className='div-block-34' aria-hidden='true'>
-                                      <div className='text-block-12' aria-hidden='true'>
+                                      <div className='text-block-12 margin-bottom margin-small' aria-hidden='true'>
                                         Implementing a referral program to promote community growth
-                                      </div>
-                                      <div className='paragraph-2 w-richtext' aria-hidden='true'>
-                                        <p className='margin-bottom-medium'> </p>
                                       </div>
                                     </div>
                                   </div>

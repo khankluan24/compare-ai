@@ -16,10 +16,10 @@ const Introduction = () => {
                   </div>
                   <div className='margin-bottom margin-medium'>
                     <p className='text-size-medium text-color-white'>
-                      CompareAI is an AI platform that provides a versatile digital assistant to cater to your diverse and complex comparison needs. It utilizes
-                      artificial intelligence to understand your needs and personal preferences, providing personalized analysis and recommendations. CompareAI
-                      believes that the power of data and AI can be used to illuminate every decision, not just in business but also in everyday life. With its
-                      technology, CompareAI is committed to giving you the confidence needed to master every choice, at every moment.
+                      CompareAl is an Al platform that provides a versatile digital assistant to cater to your diverse and complex comparison needs. It utilizes
+                      artificial intelligence to understand your needs and personal preferences, providing personalized analysis and recommendations. CompareAl
+                      believes that the power of data and Al can be used to illuminate every decision, not just in business but also in everyday life. With its
+                      technology, CompareAl is committed to giving you the confidence needed to master every choice, at every moment.
                     </p>
                   </div>
                 </div>

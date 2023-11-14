@@ -42,8 +42,8 @@ const Vision = () => {
                   <h2 className='heading-2'>The dominant contender in the Web3 AI competition</h2>
                 </div>
                 <p className='text-size-medium'>
-                  Compare-AI utilizes ít Incentive Fund to invest in further product development, aiming to enhance user productivity in the rapidly expanding
-                  realm of Web3 AI. The voting power of our holders will play a pivotal role in shaping and refining our product.
+                  CompareAi utilizes its Incentive Fund to invest in further product development, aiming to enhance user productivity in the rapidly expanding
+                  realm of Web3 Al. The voting power of our holders will play a pivotal role in shaping and refining our product.
                 </p>
               </div>
             </div>

@@ -28,7 +28,7 @@ const Footer = () => {
                 <div id='w-node-_5c7f0193-06f6-b300-36ad-360557e783c0-57e783b4' className='w-layout-grid social-link-list'>
                   <a
                     id='w-node-_5c7f0193-06f6-b300-36ad-360557e783c5-57e783b4'
-                    href='https://www.youtube.com/channel/UCC1jzBT_n_rSu7lkPygpW6w/videos'
+                    href='https://t.me/CompareAi_Portal'
                     target='_blank'
                     className='social-link-wrappper w-inline-block'>
                     <TelegramIcon></TelegramIcon>
@@ -36,7 +36,7 @@ const Footer = () => {
                   </a>
                   <a
                     id='w-node-_5c7f0193-06f6-b300-36ad-360557e783c9-57e783b4'
-                    href='https://twitter.com/SphereDeFi'
+                    href='https://twitter.com/CompareAi'
                     target='_blank'
                     className='social-link-wrappper w-inline-block'>
                     <Image src='/X.png' alt='close' width={18} height={18}></Image>
@@ -44,7 +44,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className='text-block-18'>
-                  By using the Sphere Finance website, you agree to the
+                  By using the Sphere Finance website, you agree to the&nbsp;
                   <a href='#' target='_blank' className='link-2'>
                     <span>Terms &amp;&nbsp;Conditions</span>
                   </a>

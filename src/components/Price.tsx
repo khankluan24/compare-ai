@@ -22,46 +22,43 @@ const Price = () => {
                   <div className='label'>CompareAI</div>
                 </div>
                 <div className='margin-bottom margin-small'>
-                  <h2 className='text-color-white heading-xxhuge gradient-is-whiteblue'>CAi</h2>
+                  <h2 className='text-color-white heading-xxhuge gradient-is-whiteblue'>Community & Development</h2>
                 </div>
                 <div className='margin-bottom margin-small'>
                   <p className='text-size-medium text-color-white'>
-                    Sphere collects a yield from our own transactions by strategically buying back its own liquidity. This creates a flywheel effect that
-                    continually builds our treasury and benefits our holders.
+                    Believe in CompareAi as we work together to build a strong platform for developing reliable and innovative AI products.
                   </p>
                 </div>
                 <div data-w-id='de947c4c-80db-5935-3de1-5f2f466866db' className='div-block-4'>
                   <div id='w-node-e6186e2d-242a-00fc-1d45-445c77334285-1c48dc11' className='stat-wrapper _1'>
                     <div className='label'>Tolal supply</div>
-                    <div id='marketcap' className='stat-large'>
+                    <div id='total_supply' className='stat-large extra-height'>
                       <span className='text-span-2'>
                         <sup className='superscript'></sup>
                       </span>
-                      {/* <span>10,000,000</span> */}
                       <span className='text-span'>
-                        <sup className='superscript-2'>10,000,000</sup>
+                        <sup className='superscript-2'>10M</sup>
                       </span>
                     </div>
                   </div>
                   <div id='w-node-_74b6d747-897e-aeb9-c532-ee285b7ebf5d-1c48dc11' className='stat-wrapper _1'>
-                    <div className='label'>Tax</div>
-                    <div id='price' className='stat-large'>
+                    <div className='label'>Ticker</div>
+                    <div id='ticker' className='stat-large extra-height'>
                       <span className='text-span-2'>
                         <sup className='superscript'></sup>
                       </span>
                       <span></span>
                       <span className='text-span'>
-                        <sup className='superscript-2'>5%</sup>
+                        <sup className='superscript-2'>CAi</sup>
                       </span>
                     </div>
                   </div>
                   <div id='w-node-_04bf6390-c78d-6ef6-26bd-ace65316bf30-1c48dc11' className='stat-wrapper _1'>
-                    <div className='label'>Buy</div>
-                    <div id='price' className='stat-large'>
+                    <div className='label'>Buy/Sell Tax</div>
+                    <div id='tax' className='stat-large extra-height'>
                       <span className='text-span-2'>
                         <sup className='superscript'></sup>
                       </span>
-                      <span></span>
                       <span className='text-span'>
                         <sup className='superscript-2'>5%</sup>
                       </span>
@@ -69,7 +66,7 @@ const Price = () => {
                   </div>
                 </div>
                 <div className='div-block-20'>
-                  <a href='#' target='_blank' className='button-primary w-inline-block'>
+                  <a href='https://t.me/CompareAi_Portal' target='_blank' className='button-primary w-inline-block'>
                     <div className='button-text'>Invest</div>
                   </a>
                   <div className='text-size-medium text-color-white'>Come join Sphere in a sea of liquidity.</div>

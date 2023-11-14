@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div id='header'>
       <Head>
-        <link rel='shortcut icon' href='/icon-logo-tab.jpg' style={{ borderRadius: '50%' }} />
+        <link rel='shortcut icon' href='/favicon.png' style={{ borderRadius: '50%' }} />
         <title>Compare-Ai</title>
       </Head>
       <Menu></Menu>

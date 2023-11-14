@@ -4787,19 +4787,19 @@ textarea.w-select {
 }
 
 .background-phase-1 {
-  background-image: url('./../../public/phase1.png');
+  background-image: url('./../../public/phase-1.png');
 }
 
 .background-phase-2 {
-  background-image: url('./../../public/phase2.png');
+  background-image: url('./../../public/phase-2.png');
 }
 
 .background-phase-3 {
-  background-image: url('./../../public/phase3.png');
+  background-image: url('./../../public/phase-3.png');
 }
 
 .background-phase-4 {
-  background-image: url('./../../public/phase4.png');
+  background-image: url('./../../public/phase-4.png');
 }
 .timeline-card_right-col {
   background-image: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -4873,6 +4873,7 @@ textarea.w-select {
   margin-top: 0.1rem;
   margin-bottom: 0.5rem;
   font-weight: 400;
+  font-size: 14px;
 }
 
 .text-block-13 {
@@ -5081,12 +5082,12 @@ textarea.w-select {
   text-transform: uppercase;
   border-radius: 2px;
   justify-content: center;
-  padding: 2px 3px;
+  padding: 3px;
   font-size: 0.5rem;
   line-height: 1;
   display: flex;
   position: absolute;
-  top: 35px;
+  top: 30px;
   left: -31px;
   transform: rotate(-90deg);
 }
@@ -6966,7 +6967,7 @@ textarea.w-select {
 
   .superscript,
   .superscript-2 {
-    font-size: 2.2rem;
+    font-size: 3.6rem;
   }
 
   .slanted-bg.margin-vertical.magin-xhuge {
