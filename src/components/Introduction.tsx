@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 const Introduction = () => {
   return (
-    <section className='section-layout25'>
+    <section className='section-layout25' id='introduction'>
       <div className='page-padding'>
         <div className='container-large'>
           <div className='padding-vertical'>
@@ -8,7 +9,7 @@ const Introduction = () => {
               <div className='w-layout-grid layout25_component'>
                 <div className='layout25_content'>
                   <div className='margin-bottom margin-xsmall'>
-                    <div className='label'>Let's Dig In</div>
+                    <div className='label'>{"Let's Dig In"}</div>
                   </div>
                   <div className='margin-bottom margin-small'>
                     <h2 className='heading'>Start Here to Compare-AI</h2>
@@ -23,19 +24,15 @@ const Introduction = () => {
                   </div>
                 </div>
                 <div className='layout25_image-wrapper'>
-                  <a
-                    href='https://www.sphere.finance/?fbclid=IwAR2AKg7qfnjPUH6AlE9Zcu-9NSjxnaJi7QhiSFLkLtcps2yqCT5Ujo5LBjw#'
-                    className='w-inline-block w-lightbox'
-                    aria-label='open lightbox'
-                    aria-haspopup='dialog'>
+                  <a className='w-inline-block w-lightbox' aria-label='open lightbox' aria-haspopup='dialog'>
                     <img
                       src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62ab55219cbbe9277ee695cb_Screen Shot 2022-06-16 at 12.06.34 PM.png'
                       loading='lazy'
                       sizes='(max-width: 479px) 76vw, (max-width: 767px) 81vw, (max-width: 991px) 83vw, 37vw'
                       srcSet='
-                      https://assets-global.website-files.com/62794603633d33e91a3daa49/62ab55219cbbe9277ee695cb_Screen%20Shot%202022-06-16%20at%2012.06.34%20PM-p-500.png  500w,
-                      https://assets-global.website-files.com/62794603633d33e91a3daa49/62ab55219cbbe9277ee695cb_Screen%20Shot%202022-06-16%20at%2012.06.34%20PM-p-800.png  800w,
-                      https://assets-global.website-files.com/62794603633d33e91a3daa49/62ab55219cbbe9277ee695cb_Screen%20Shot%202022-06-16%20at%2012.06.34%20PM.png       1017w
+                      ./banner.png  500w,
+                      ./banner.png  800w,
+                      ./banner.png  1017w
                     '
                       alt=''
                       className='image-13'
@@ -53,8 +50,8 @@ const Introduction = () => {
                   </div>
                   <div className='margin-bottom margin-medium'>
                     <p className='text-size-medium text-color-white'>
-                      Our dynamic tax system ensures that no one person can cause massive swings in price. Because fees are adjusted when a transaction affects
-                      Sphere's liquidity, we're able to encourage people to take their profits in a way that benefits both the investor and the community.
+                      {`Our dynamic tax system ensures that no one person can cause massive swings in price. Because fees are adjusted when a transaction affects
+                      Sphere's liquidity, we're able to encourage people to take their profits in a way that benefits both the investor and the community.`}
                     </p>
                   </div>
                 </div>

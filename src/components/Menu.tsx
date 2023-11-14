@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import TelegramIcon from '@mui/icons-material/Telegram';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import Image from 'next/image';
 import { useState } from 'react';
 import * as styles from '@/styles/components/Menu';
@@ -26,21 +26,27 @@ const Menu = () => {
                               <div className='div-block-19'>
                                 <Image src='/logo.png' alt='close' width={150} height={70}></Image>
                                 <div className='nav-link-list'>
-                                  <a href='#' aria-current='page' className='nav-link w-inline-block w--current'>
+                                  <a href='#header' aria-current='page' className='nav-link w-inline-block w--current'>
                                     <div>Home</div>
                                   </a>
-                                  <a href='#' className='nav-link w-inline-block'>
+                                  <a href='#introduction' className='nav-link w-inline-block'>
+                                    <div>Introduction</div>
+                                  </a>
+                                  <a href='#products' className='nav-link hidden w-inline-block'>
+                                    <div>Products</div>
+                                  </a>
+                                  <a href='#price' className='nav-link w-inline-block'>
+                                    <div>Price</div>
+                                  </a>
+                                  <a href='#contender' className='nav-link w-inline-block'>
+                                    <div>The dominant contender</div>
+                                  </a>
+                                  <a href='#roadmap' className='nav-link w-inline-block'>
                                     <div>Roadmap</div>
                                   </a>
-                                  <a href='#' className='nav-link hidden w-inline-block'>
-                                    <div>Treasury Report</div>
-                                  </a>
-                                  <a href='#' className='nav-link w-inline-block'>
-                                    <div>Careers</div>
-                                  </a>
                                 </div>
-                                <a href='https://t.me/CompareAi_Portal' target='_blank' className='button-primary is-in-nav is-in-mobile w-inline-block'>
-                                  <div className='button-text'>Invest</div>
+                                <a href='#' target='_blank' className='button-primary is-in-nav is-in-mobile w-inline-block'>
+                                  <div className='button-text'>White Paper</div>
                                 </a>
                                 <div className='w-layout-grid social-link-list mobile'>
                                   <a
@@ -56,11 +62,11 @@ const Menu = () => {
                                     href='https://twitter.com/CompareAi'
                                     target='_blank'
                                     className='social-link-wrappper w-inline-block'>
-                                    <TwitterIcon></TwitterIcon>
+                                    <Image src='/X.png' alt='close' width={18} height={18}></Image>
                                     <div className='social-link-text'>Twitter</div>
                                   </a>
                                 </div>
-                                <a href='https://www.sphere.finance/terms' className='nav-link is-small w-inline-block'>
+                                <a href='#' className='nav-link is-small w-inline-block'>
                                   <div>Terms &amp;&nbsp;Conditions</div>
                                 </a>
                               </div>
@@ -77,8 +83,8 @@ const Menu = () => {
                       className='contact-modal3_background-overlay-2'
                       onClick={() => setIsShowNav(!isShowNav)}></div>
                   </div>
-                  <a href='https://t.me/CompareAi_Portal' target='_blank' className='button-primary is-in-nav w-inline-block'>
-                    <div className='button-text'>Invest</div>
+                  <a href='#' target='_blank' className='button-primary is-in-nav w-inline-block'>
+                    <div className='button-text'>White Paper</div>
                   </a>
                   <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block' onClick={() => setIsShowNav(!isShowNav)}>
                     <div className='menu-icon4_wrapper'>

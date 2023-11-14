@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Header = () => {
   return (
     <div className='section-header'>
@@ -8,21 +9,16 @@ const Header = () => {
               <div className='div-block-3'>
                 <div className='max-width-large'>
                   <div className='margin-bottom margin-large'>
-                    <p className='label text-align-left text-color-white text-weight-regular'>Store Of Value With Forced Appreciation</p>
-                    <h1 className='text-color-white heading-xxhuge gradient-is-whiteblue'>The S&amp;P 500 of Crypto</h1>
-                    <p className='text-size-large text-color-white'>
-                      The Sphere Ecosystem Find the best deals for any product with our AI-powered Telegram bot!
-                    </p>
+                    <p className='label text-align-left text-color-white text-weight-regular'>AI-POWERED SHOPPING AT YOUR TIPS</p>
+                    <h1 className='text-color-white heading-xxhuge gradient-is-whiteblue'>COMPARE-AI</h1>
+                    <p className='text-size-large text-color-white'>Find the best deals for any product with our Al-powered Telegram bot!</p>
                   </div>
                   <div className='margin-top margin-medium'>
                     <div className='button-bar'>
-                      <a href='https://t.me/CompareAi_Portal' className='button-primary w-inline-block' target='_blank'>
+                      <a href='#' className='button-primary w-inline-block'>
                         <div className='button-text'>Invest</div>
                       </a>
-                      <a
-                        href='https://www.geckoterminal.com/polygon_pos/pools/0xf3312968c7d768c19107731100ece7d4780b47b2'
-                        target='_blank'
-                        className='button-secondary w-inline-block'>
+                      <a href='#' className='button-secondary w-inline-block'>
                         <div className='button-text'>View Charts</div>
                       </a>
                     </div>
@@ -37,18 +33,18 @@ const Header = () => {
         <div className='image-overlay-layer'></div>
         <div className='div-block'>
           <img
-            src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795ef5c032a1512746ca62_worm_isolated copy@2x.png'
+            src={'/image-background.png'}
             loading='lazy'
             sizes='100vw'
             srcSet='
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-500.png   500w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-800.png   800w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-1080.png 1080w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-1600.png 1600w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-2000.png 2000w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-2600.png 2600w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x-p-3200.png 3200w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795ef5c032a1512746ca62_worm_isolated%20copy%402x.png        4000w
+            /image-background.png  500w,
+            /image-background.png  800w,
+            /image-background.png 1080w,
+            /image-background.png 1600w,
+            /image-background.png 2000w,
+            /image-background.png 2600w,
+            /image-background.png 3200w,
+            /image-background.png       4000w
         '
             alt=''
             className='image'

@@ -1,8 +1,8 @@
+import Head from 'next/head';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Introduction from '@/components/Introduction';
 import Menu from '@/components/Menu';
-import Partners from '@/components/Partners';
 import Price from '@/components/Price';
 import Products from '@/components/Products';
 import Roadmap from '@/components/Roadmap';
@@ -10,7 +10,11 @@ import Vision from '@/components/Vision';
 
 export default function Home() {
   return (
-    <div>
+    <div id='header'>
+      <Head>
+        <link rel='shortcut icon' href='/icon-logo-tab.jpg' style={{ borderRadius: '50%' }} />
+        <title>Compare-Ai</title>
+      </Head>
       <Menu></Menu>
       <Header></Header>
       <Introduction></Introduction>
@@ -18,7 +22,7 @@ export default function Home() {
       <Price></Price>
       <Vision></Vision>
       <Roadmap></Roadmap>
-      <Partners></Partners>
+      {/* <Partners></Partners> */}
       <Footer></Footer>
     </div>
   );

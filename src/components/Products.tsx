@@ -1,13 +1,18 @@
+/* eslint-disable @next/next/no-img-element */
+import CheckIcon from '@mui/icons-material/Check';
+import Image from 'next/image';
+
+const LoadingImage = '/loading.png';
 const Products = () => {
   return (
-    <section className='section-layout41'>
+    <section className='section-layout41' id='products'>
       <img
-        src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
+        src='./sphere.png'
         loading='lazy'
         sizes='(max-width: 520px) 100vw, 520px'
         srcSet='
-        https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x-p-500.png 500w,
-        https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x.png       520w
+        sphere.png 500w,
+        sphere.png       520w
       '
         alt=''
         className='image-6'
@@ -22,71 +27,51 @@ const Products = () => {
                     3x Audited, 2x KYC<span className='text-span-3'>ed</span>, 120x Peer Reviewed
                   </div>
                 </div>
-                <h2 className='heading'>Invested in Investor Confidence</h2>
+                <h2 className='heading'>CompareAi vision for the future</h2>
               </div>
               <div className='layout41_content-right'>
                 <p className='text-size-medium text-color-white'>
-                  Participate with confidence knowing that Sphere has overshot the industry-accepted security measures. Two KYCs, three audits, and 120+ peer
-                  reviews of our contract to date - Sphere will continuously stay ahead of the security curve.
+                  We aim for CompareAl to become the premier platform for comparing a wide range of choices, from daily decisions to significant life choices.
+                  Through pioneering Al-driven data analysis, we are dedicated to delivering a decision support system that relies on accurate data and a
+                  profound understanding of individual behavior and needs.
                 </p>
               </div>
             </div>
             <div className='w-layout-grid security-wrapper'>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b27-1c48dc11' className='glass-panel padding-2rem'>
-                <div className='label text-align-center text-color-white text-weight-regular'>Highest KYC&nbsp;By</div>
+                <div className='label text-align-center text-color-white text-weight-regular'>ShopperAI</div>
                 <div className='div-block-14'>
-                  <img
-                    src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282cc959b75c8602011b8ac_obsidian.png'
-                    loading='lazy'
-                    alt=''
-                    className='image-5 obsidian'
-                  />
+                  <img src='./shoppe-ai.png' loading='lazy' alt='' className='image-5 obsidian' />
                 </div>
                 <div data-w-id='52474d49-5c2c-509e-003b-d69c217d672a' className='check-wrapper'>
-                  <img src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282d7b52753ad0081012ce2_icon_check.svg' loading='lazy' alt='' />
+                  <CheckIcon sx={{ color: 'white' }}></CheckIcon>
                 </div>
               </div>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b2c-1c48dc11' className='glass-panel padding-2rem'>
-                <div className='label text-align-center text-color-white text-weight-regular'>Audited &amp;&nbsp;KYC&nbsp;By</div>
+                <div className='label text-align-center text-color-white text-weight-regular'>ScanAI</div>
                 <div className='div-block-14'>
-                  <img
-                    src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282cc9683b0c394290f3dda_certik.png'
-                    loading='lazy'
-                    alt=''
-                    className='image-5 certik'
-                  />
+                  <img src='./solis-ai.png' loading='lazy' alt='' className='image-5 certik' />
                 </div>
-                <div data-w-id='e21688b8-d833-1458-a074-d4d0b2841c88' className='check-wrapper'>
-                  <img src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282d7b52753ad0081012ce2_icon_check.svg' loading='lazy' alt='' />
+                <div data-w-id='e21688b8-d833-1458-a074-d4d0b2841c88' className='check-wrapper-none'>
+                  <Image src={LoadingImage} width={23} height={23} alt=''></Image>
                 </div>
               </div>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b31-1c48dc11' className='glass-panel padding-2rem'>
-                <div className='label text-align-center text-color-white text-weight-regular'>Audited By</div>
+                <div className='label text-align-center text-color-white text-weight-regular'>SolisAI</div>
                 <div className='div-block-14'>
-                  <img
-                    src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282cc9622861d777ef9caf8_solidity.png'
-                    loading='lazy'
-                    alt=''
-                    className='image-5 sf'
-                  />
+                  <img src='./scan-ai.png' loading='lazy' alt='' className='image-5 sf' />
                 </div>
-                <div data-w-id='ea893e35-5778-cd3f-bb9a-c09561c543a1' className='check-wrapper'>
-                  <img src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282d7b52753ad0081012ce2_icon_check.svg' loading='lazy' alt='' />
+                <div data-w-id='ea893e35-5778-cd3f-bb9a-c09561c543a1' className='check-wrapper-none'>
+                  <Image src={LoadingImage} width={23} height={23} alt=''></Image>
                 </div>
               </div>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b36-1c48dc11' className='glass-panel padding-2rem'>
-                <div className='label text-align-center text-color-white text-weight-regular'>Audited By</div>
+                <div className='label text-align-center text-color-white text-weight-regular'>Eva Assistant</div>
                 <div className='div-block-14'>
-                  <img
-                    src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282cc95f0c3b275a9733cc5_prisma.png'
-                    loading='lazy'
-                    alt=''
-                    width='100'
-                    className='image-5 prisma'
-                  />
+                  <img src='./eva.png' loading='lazy' alt='' width='100' className='image-5 prisma' />
                 </div>
-                <div data-w-id='69d5285e-06a2-1918-25b7-f0921ea97ac0' className='check-wrapper'>
-                  <img src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/6282d7b52753ad0081012ce2_icon_check.svg' loading='lazy' alt='' />
+                <div data-w-id='69d5285e-06a2-2318-25b7-f0921ea97ac0' className='check-wrapper-none'>
+                  <Image src={LoadingImage} width={23} height={23} alt=''></Image>
                 </div>
               </div>
             </div>

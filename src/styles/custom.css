@@ -3124,7 +3124,6 @@ textarea.w-select {
 
 .social-link-text {
   font-size: 0.8125rem;
-  line-height: 1.2;
 }
 
 .partner-description {
@@ -3300,7 +3299,6 @@ textarea.w-select {
   max-height: 2.5rem;
   margin-top: -7px;
 }
-
 .partner-logo.tetu {
   width: 5rem;
   display: block;
@@ -3446,6 +3444,21 @@ textarea.w-select {
   justify-content: center;
   align-items: center;
   padding: 0.7rem;
+  display: flex;
+  position: absolute;
+  top: auto;
+  bottom: -7%;
+  left: auto;
+  right: 6%;
+}
+
+.check-wrapper-none {
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: #fff;
+  border-radius: 80px;
+  justify-content: center;
+  align-items: center;
   display: flex;
   position: absolute;
   top: auto;
@@ -4758,7 +4771,6 @@ textarea.w-select {
 
 .timeline-card_left-col {
   width: 30%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4774,6 +4786,21 @@ textarea.w-select {
   display: flex;
 }
 
+.background-phase-1 {
+  background-image: url('./../../public/phase1.png');
+}
+
+.background-phase-2 {
+  background-image: url('./../../public/phase2.png');
+}
+
+.background-phase-3 {
+  background-image: url('./../../public/phase3.png');
+}
+
+.background-phase-4 {
+  background-image: url('./../../public/phase4.png');
+}
 .timeline-card_right-col {
   background-image: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -6692,7 +6719,6 @@ textarea.w-select {
     margin-left: 0;
     margin-right: 0;
   }
-
   .navbar6_menu-dropdown {
     width: 100%;
   }
@@ -8249,4 +8275,17 @@ textarea.w-select {
   #w-node-fdd336cf-2425-6199-e085-eaeaede97008-5748dc2d {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
+}
+
+/* ------------------------------------------------------------------ */
+
+.background-banner {
+  background-image: url('./../../public/banner.png');
+  background-size: contain;
+  height: calc(100vh - 100px);
+  background-repeat: no-repeat;
+}
+
+.margin-top-20 {
+  margin-top: 30px;
 }

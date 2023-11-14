@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 const Price = () => {
   return (
-    <section className='section-layout138'>
+    <section className='section-layout138' id='price'>
       <img
         src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
         loading='lazy'
@@ -18,10 +19,10 @@ const Price = () => {
             <div className='text-align-center'>
               <div className='max-width-xlarge'>
                 <div className='margin-bottom margin-xsmall'>
-                  <div className='label'>Deep Deep Pools</div>
+                  <div className='label'>CompareAI</div>
                 </div>
                 <div className='margin-bottom margin-small'>
-                  <h2 className='text-color-white heading-xxhuge gradient-is-whiteblue'>"Flywheel" Liquidity</h2>
+                  <h2 className='text-color-white heading-xxhuge gradient-is-whiteblue'>CAi</h2>
                 </div>
                 <div className='margin-bottom margin-small'>
                   <p className='text-size-medium text-color-white'>
@@ -31,38 +32,44 @@ const Price = () => {
                 </div>
                 <div data-w-id='de947c4c-80db-5935-3de1-5f2f466866db' className='div-block-4'>
                   <div id='w-node-e6186e2d-242a-00fc-1d45-445c77334285-1c48dc11' className='stat-wrapper _1'>
-                    <div className='label'>Market Cap</div>
+                    <div className='label'>Tolal supply</div>
                     <div id='marketcap' className='stat-large'>
                       <span className='text-span-2'>
-                        <sup className='superscript'>$</sup>
+                        <sup className='superscript'></sup>
                       </span>
-                      <span>8</span>
+                      {/* <span>10,000,000</span> */}
                       <span className='text-span'>
-                        <sup className='superscript-2'>.01M</sup>
+                        <sup className='superscript-2'>10,000,000</sup>
                       </span>
                     </div>
                   </div>
                   <div id='w-node-_74b6d747-897e-aeb9-c532-ee285b7ebf5d-1c48dc11' className='stat-wrapper _1'>
-                    <div className='label'>Token Price</div>
+                    <div className='label'>Tax</div>
                     <div id='price' className='stat-large'>
                       <span className='text-span-2'>
-                        <sup className='superscript'>$</sup>
+                        <sup className='superscript'></sup>
                       </span>
-                      <span>0</span>
+                      <span></span>
                       <span className='text-span'>
-                        <sup className='superscript-2'>.001045</sup>
+                        <sup className='superscript-2'>5%</sup>
                       </span>
                     </div>
                   </div>
-                  <div id='w-node-_04bf6390-c78d-6ef6-26bd-ace65316bf30-1c48dc11' className='stat-wrapper _3'>
-                    <div className='label'>TOTAL WALLETS</div>
-                    <div id='totalWallets' className='stat-large extra-height'>
-                      29,329
+                  <div id='w-node-_04bf6390-c78d-6ef6-26bd-ace65316bf30-1c48dc11' className='stat-wrapper _1'>
+                    <div className='label'>Buy</div>
+                    <div id='price' className='stat-large'>
+                      <span className='text-span-2'>
+                        <sup className='superscript'></sup>
+                      </span>
+                      <span></span>
+                      <span className='text-span'>
+                        <sup className='superscript-2'>5%</sup>
+                      </span>
                     </div>
                   </div>
                 </div>
                 <div className='div-block-20'>
-                  <a href='https://t.me/CompareAi_Portal' target='_blank' className='button-primary w-inline-block'>
+                  <a href='#' target='_blank' className='button-primary w-inline-block'>
                     <div className='button-text'>Invest</div>
                   </a>
                   <div className='text-size-medium text-color-white'>Come join Sphere in a sea of liquidity.</div>

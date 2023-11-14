@@ -24,12 +24,12 @@ html {
   background: var(--color-white);
   font-size: 100%;
   background-color: #070c38;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: #070c38;
   font-family: Open Sans, sans-serif;
   transition: all 0.3s;
 }
