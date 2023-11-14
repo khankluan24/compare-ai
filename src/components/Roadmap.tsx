@@ -54,8 +54,8 @@ const Roadmap = () => {
                   </div>
                   <div id='w-node-_975f6764-a067-bccc-cf42-4d0fb3d2bb74-1c48dc11' className='div-block-39'>
                     <p className='text-size-medium text-color-white'>
-                      CompareAi's vision entails creating an ecosystem that encompasses the myriad opportunities within Artificial Intelligence, with a focus on
-                      developing the most exceptional iterations of each.
+                      {`CompareAi's vision entails creating an ecosystem that encompasses the myriad opportunities within Artificial Intelligence, with a focus on
+                      developing the most exceptional iterations of each.`}
                     </p>
                   </div>
                 </div>
