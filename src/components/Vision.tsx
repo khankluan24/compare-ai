@@ -1,11 +1,22 @@
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import * as styles from '@/styles/components/Header';
+
 const UniswapLogo = '/uniswap-uni-logo.svg';
 const DexToolsLogo = '/dextools.svg';
 const EthereumLogo = '/ethereum-eth-logo.svg';
 const Coingecko1 = '/coingecko-1.svg';
 const OpenAiSvg = '/openai-svgrepo-com.svg';
-import Image from 'next/image';
 
-const Vision = () => {
+const Vision = ({ positionScroll }: { positionScroll: number }) => {
+  const [position, setPosition] = useState({ left: 0, right: 0 });
+
+  useEffect(() => {
+    if (positionScroll > 2400 && positionScroll < 4500) {
+      return setPosition({ left: (positionScroll - 3100) / 18, right: (positionScroll - 2800) / 7 });
+    }
+  }, [positionScroll]);
+
   return (
     <section data-w-id='94bbc353-5ccd-6d20-a2bc-2ea8fb9d20d8' className='section-layout192 margin-vertical margin-xhuge' id='contender'>
       <div className='slanted-bg margin-vertical magin-xhuge'></div>
@@ -14,7 +25,7 @@ const Vision = () => {
           <div className='padding-vertical'>
             <div className='w-layout-grid layout192_component'>
               <div id='w-node-f01c669d-f204-6c13-91a9-ddf1ba0c25b9-1c48dc11' className='div-block-5'>
-                <div id='w-node-bc5d39a6-dede-588c-aa20-9d9cd6fe9829-1c48dc11' className='partner-column left'>
+                <div id='w-node-bc5d39a6-dede-588c-aa20-9d9cd6fe9829-1c48dc11' className='partner-column left' css={styles.position(position.left)}>
                   <div id='w-node-d989ee35-0eee-99c2-cd46-60bb9260bfd1-1c48dc11' className='partner-wrapper'>
                     <Image src={UniswapLogo} width={100} height={100} alt=''></Image>
                   </div>
@@ -25,7 +36,7 @@ const Vision = () => {
                     <Image src={EthereumLogo} width={100} height={100} alt=''></Image>
                   </div>
                 </div>
-                <div className='partner-column right'>
+                <div className='partner-column right' css={styles.position(position.right)}>
                   <div id='w-node-_2be93e76-ae42-ed47-c25e-331882d750f4-1c48dc11' className='partner-wrapper'>
                     <Image src={Coingecko1} width={100} height={100} alt=''></Image>
                   </div>

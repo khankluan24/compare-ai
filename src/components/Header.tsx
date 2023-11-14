@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+
 const Header = () => {
   return (
     <div className='section-header'>
@@ -47,7 +48,7 @@ const Header = () => {
             /image-background.png       4000w
         '
             alt=''
-            className='image'
+            className='image transition-ele'
           />
           <img
             src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
