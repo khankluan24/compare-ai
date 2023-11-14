@@ -3734,7 +3734,7 @@ textarea.w-select {
   padding: 5rem 4rem;
   display: flex;
   position: absolute;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .contact-modal3_background-overlay-2 {
@@ -8286,6 +8286,15 @@ textarea.w-select {
   background-repeat: no-repeat;
 }
 
-.margin-top-20 {
+.margin-top-medium-cus {
   margin-top: 30px;
+}
+
+.margin-top-large-cus {
+  margin-top: 50px;
+}
+
+.transition-ele {
+  will-change: scroll-position;
+  transition: all 0.3s ease-in;
 }

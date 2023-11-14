@@ -432,22 +432,11 @@ const Roadmap = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item margin-top-20' aria-hidden='true'>
+                              <div role='listitem' className='w-dyn-item margin-top-medium-cus' aria-hidden='true'>
                                 <div className='highlight-item' aria-hidden='true'>
                                   <div className='div-block-30' aria-hidden='true'>
                                     <div className='div-block-33' aria-hidden='true'>
-                                      <div
-                                        //   style='
-                                        //   transform: translate3d(0px, 0px, 0px)
-                                        //     scale3d(0.954811, 0.954811, 1)
-                                        //     rotateX(0deg) rotateY(0deg)
-                                        //     rotateZ(-90deg) skew(0deg, 0deg);
-                                        //   transform-style: preserve-3d;
-                                        //   opacity: 0.829957;
-                                        //   will-change: opacity, transform;
-                                        // '
-                                        className='timeline-badge in-progress w-condition-invisible'
-                                        aria-hidden='true'>
+                                      <div className='timeline-badge in-progress w-condition-invisible' aria-hidden='true'>
                                         In Progress
                                       </div>
                                       <div className='timeline-badge complete' aria-hidden='true'>
@@ -515,8 +504,8 @@ const Roadmap = () => {
                                         className='timeline-badge in-progress w-condition-invisible'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
-                                      <div className='timeline-badge planned'>Planned</div>
+                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge planned w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
                                       <div className='text-block-12'>Launching</div>
@@ -527,7 +516,7 @@ const Roadmap = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item'>
+                              <div role='listitem' className='w-dyn-item margin-top-medium-cus'>
                                 <div className='highlight-item'>
                                   <div className='div-block-30'>
                                     <div className='div-block-33'>
@@ -544,8 +533,8 @@ const Roadmap = () => {
                                         className='timeline-badge in-progress w-condition-invisible'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
-                                      <div className='timeline-badge planned'>Planned</div>
+                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge planned  w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
                                       <div className='text-block-12'>User Base Expansion, focus Black Friday</div>
@@ -573,19 +562,19 @@ const Roadmap = () => {
                                         className='timeline-badge in-progress w-condition-invisible'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
-                                      <div className='timeline-badge planned'>Planned</div>
+                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge planned w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
-                                      <div className='text-block-12'></div>
+                                      <div className='text-block-12'>Upgrading the UX/UI</div>
                                       <div className='paragraph-2 w-richtext'>
-                                        <p className=''>Upgrading the UX/UI </p>
+                                        <p className=''> </p>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item margin-top-medium'>
+                              <div role='listitem' className='w-dyn-item margin-top-large-cus'>
                                 <div className='highlight-item'>
                                   <div className='div-block-30'>
                                     <div className='div-block-33'>
@@ -602,8 +591,8 @@ const Roadmap = () => {
                                         className='timeline-badge in-progress w-condition-invisible'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
-                                      <div className='timeline-badge planned'>Planned</div>
+                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge planned  w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
                                       <div className='text-block-12'>Testnet for ScanAI and developing SolisAI</div>
@@ -664,11 +653,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress'
+                                        className='timeline-badge in-progress  w-condition-invisible'
                                         aria-hidden='true'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
+                                      <div className='timeline-badge complete' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned w-condition-invisible' aria-hidden='true'>
@@ -680,7 +669,7 @@ const Roadmap = () => {
                                         Launching ScanAI and run huge marketing
                                       </div>
                                       <div className='paragraph-2 w-richtext' aria-hidden='true'>
-                                        <p className='margin-bottom-medium'> </p>
+                                        <p className='margin-bottom-medium'></p>
                                       </div>
                                     </div>
                                   </div>
@@ -704,10 +693,10 @@ const Roadmap = () => {
                                         aria-hidden='true'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
+                                      <div className='timeline-badge complete ' aria-hidden='true'>
                                         Complete
                                       </div>
-                                      <div className='timeline-badge planned' aria-hidden='true'>
+                                      <div className='timeline-badge planned w-condition-invisible' aria-hidden='true'>
                                         Planned
                                       </div>
                                     </div>
@@ -722,7 +711,7 @@ const Roadmap = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div role='listitem' className='w-dyn-item' aria-hidden='true'>
+                              <div role='listitem' className='w-dyn-item margin-top-medium-cus' aria-hidden='true'>
                                 <div className='highlight-item' aria-hidden='true'>
                                   <div className='div-block-30' aria-hidden='true'>
                                     <div className='div-block-33' aria-hidden='true'>
@@ -740,10 +729,10 @@ const Roadmap = () => {
                                         aria-hidden='true'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
+                                      <div className='timeline-badge complete' aria-hidden='true'>
                                         Complete
                                       </div>
-                                      <div className='timeline-badge planned' aria-hidden='true'>
+                                      <div className='timeline-badge planned  w-condition-invisible' aria-hidden='true'>
                                         Planned
                                       </div>
                                     </div>
@@ -776,10 +765,10 @@ const Roadmap = () => {
                                         aria-hidden='true'>
                                         In Progress
                                       </div>
-                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
+                                      <div className='timeline-badge complete' aria-hidden='true'>
                                         Complete
                                       </div>
-                                      <div className='timeline-badge planned' aria-hidden='true'>
+                                      <div className='timeline-badge planned  w-condition-invisible' aria-hidden='true'>
                                         Planned
                                       </div>
                                     </div>
@@ -788,7 +777,7 @@ const Roadmap = () => {
                                         Focus to build Eva Assistant
                                       </div>
                                       <div className='paragraph-2 w-richtext' aria-hidden='true'>
-                                        <p className='margin-bottom-medium'> </p>
+                                        <p> </p>
                                       </div>
                                     </div>
                                   </div>

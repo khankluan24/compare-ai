@@ -6,6 +6,22 @@ import * as styles from '@/styles/components/Menu';
 
 const Menu = () => {
   const [isShowNav, setIsShowNav] = useState(false);
+  const [isShowChild, setIsShowChild] = useState(false);
+
+  const onClickMenu = () => {
+    if (isShowNav) {
+      setIsShowChild(false);
+      setTimeout(() => {
+        setIsShowNav(false);
+      }, 300);
+    } else {
+      setIsShowNav(true);
+      setTimeout(() => {
+        setIsShowChild(true);
+      }, 20);
+    }
+  };
+
   return (
     <div>
       <section className='section-contact-modal3'>
@@ -17,8 +33,8 @@ const Menu = () => {
                   <Image src='/logo.png' alt='close' width={150} height={70}></Image>
                 </a>
                 <div className='button-row is-button-row-center'>
-                  <div className='contact-modal3_component-2' css={styles.contactModal3Component2(isShowNav)}>
-                    <div className='contact-modal3_content-wrapper-2' css={styles.contactModal3ContentWrapper2(isShowNav)}>
+                  <div className='contact-modal3_component-2' css={[styles.display(isShowNav)]}>
+                    <div className='contact-modal3_content-wrapper-2' css={styles.contactModal3ContentWrapper2(isShowChild)}>
                       <div className='margin-bottom margin-large'>
                         <div className='text-align-center-2'>
                           <div className='max-width-large-2 align-center'>
@@ -75,19 +91,20 @@ const Menu = () => {
                         </div>
                       </div>
                       <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefde' className='contact-modal3_close-button-2 w-inline-block'>
-                        <Image src='/close_light.svg' alt='close' width={19} height={19} onClick={() => setIsShowNav(!isShowNav)}></Image>
+                        <Image src='/close_light.svg' alt='close' width={19} height={19} onClick={onClickMenu}></Image>
                       </a>
                     </div>
                     <div
                       data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe0'
                       className='contact-modal3_background-overlay-2'
-                      onClick={() => setIsShowNav(!isShowNav)}></div>
+                      css={[styles.display(isShowNav)]}
+                      onClick={onClickMenu}></div>
                   </div>
                   <a href='#' target='_blank' className='button-primary is-in-nav w-inline-block'>
                     <div className='button-text'>White Paper</div>
                   </a>
-                  <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block' onClick={() => setIsShowNav(!isShowNav)}>
-                    <div className='menu-icon4_wrapper'>
+                  <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block'>
+                    <div className='menu-icon4_wrapper' onClick={onClickMenu}>
                       <div className='menu-icon4_line-top-2'></div>
                       <div className='menu-icon4_line-middle-2'>
                         <div className='menu-icon_line-middle-top'></div>
