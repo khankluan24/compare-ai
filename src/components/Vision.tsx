@@ -47,10 +47,10 @@ const Vision = ({ positionScroll }: { positionScroll: number }) => {
               </div>
               <div id='w-node-_94bbc353-5ccd-6d20-a2bc-2ea8fb9d20df-1c48dc11' className='layout192_content'>
                 <div className='margin-bottom margin-xsmall'>
-                  <div className='label text-align-left'>THE LEADING FORCE IN THE WEB3 AI COMPETITION</div>
+                  <div className='label text-align-left'>Leading force in web3 ai development</div>
                 </div>
                 <div className='margin-bottom margin-small'>
-                  <h2 className='heading-2'>The dominant contender in the Web3 AI competition</h2>
+                  <h2 className='heading-2'>The Dominant Contender in The Competition</h2>
                 </div>
                 <p className='text-size-medium'>
                   CompareAi utilizes its Incentive Fund to invest in further product development, aiming to enhance user productivity in the rapidly expanding

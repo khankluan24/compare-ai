@@ -28,7 +28,7 @@ export default function Home() {
     <div id='header'>
       <Head>
         <link rel='shortcut icon' href='/favicon.png' style={{ borderRadius: '50%' }} />
-        <title>Compare-Ai</title>
+        <title>Compare Ai</title>
       </Head>
       <Menu></Menu>
       <Header></Header>

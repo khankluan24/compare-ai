@@ -34,57 +34,11 @@ const Header = () => {
         <div className='image-overlay-layer'></div>
         <div className='div-block'>
           <img
-            src={'/image-background.png'}
+            src={'/background-2.png'}
             loading='lazy'
             sizes='100vw'
-            srcSet='
-            /image-background.png  500w,
-            /image-background.png  800w,
-            /image-background.png 1080w,
-            /image-background.png 1600w,
-            /image-background.png 2000w,
-            /image-background.png 2600w,
-            /image-background.png 3200w,
-            /image-background.png       4000w
-        '
             alt=''
             className='image transition-ele'
-          />
-          <img
-            src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
-            loading='lazy'
-            width='265'
-            sizes='(max-width: 479px) 100vw, (max-width: 767px) 30vw, (max-width: 991px) 190px, 280px'
-            alt=''
-            srcSet='
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x-p-500.png 500w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x.png       520w
-        '
-            className='sphere-image _1'
-          />
-          <img
-            src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
-            loading='lazy'
-            width='127'
-            sizes='(max-width: 479px) 40vw, 127px'
-            alt=''
-            srcSet='
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x-p-500.png 500w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x.png       520w
-        '
-            className='sphere-image _3'
-          />
-          <img
-            src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
-            loading='lazy'
-            width='203'
-            sizes='(max-width: 479px) 40vw, (max-width: 767px) 30vw, 203px'
-            alt=''
-            srcSet='
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x-p-500.png 500w,
-          https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x.png       520w
-        '
-            className='sphere-image _2'
           />
         </div>
       </div>

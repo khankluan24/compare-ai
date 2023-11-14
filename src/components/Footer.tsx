@@ -43,13 +43,6 @@ const Footer = () => {
                     <div className='social-link-text'>Twitter</div>
                   </a>
                 </div>
-                <div className='text-block-18'>
-                  By using the Sphere Finance website, you agree to the&nbsp;
-                  <a href='#' target='_blank' className='link-2'>
-                    <span>Terms &amp;&nbsp;Conditions</span>
-                  </a>
-                  .
-                </div>
               </div>
             </div>
           </div>

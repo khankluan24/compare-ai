@@ -52,10 +52,7 @@ const Menu = () => {
                                     <div>Products</div>
                                   </a>
                                   <a href='#price' className='nav-link w-inline-block'>
-                                    <div>Price</div>
-                                  </a>
-                                  <a href='#contender' className='nav-link w-inline-block'>
-                                    <div>The dominant contender</div>
+                                    <div>Tokenomics</div>
                                   </a>
                                   <a href='#roadmap' className='nav-link w-inline-block'>
                                     <div>Roadmap</div>

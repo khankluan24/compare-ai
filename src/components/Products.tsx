@@ -24,7 +24,7 @@ const Products = () => {
               <div className='layout41_content-left'>
                 <div className='margin-bottom margin-xsmall'>
                   <div className='label'>
-                    3x Audited, 2x KYC<span className='text-span-3'>ed</span>, 120x Peer Reviewed
+                    Products, Commitment, Community
                   </div>
                 </div>
                 <h2 className='heading'>CompareAi vision for the future</h2>

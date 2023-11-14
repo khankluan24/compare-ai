@@ -371,11 +371,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'
+                                        className='timeline-badge in-progress'
                                         aria-hidden='true'>
-                                        In Progress
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete' aria-hidden='true'>
+                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned w-condition-invisible' aria-hidden='true'>
@@ -407,11 +407,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'
+                                        className='timeline-badge in-progress'
                                         aria-hidden='true'>
-                                        In Progress
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete' aria-hidden='true'>
+                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned w-condition-invisible' aria-hidden='true'>
@@ -498,10 +498,10 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'>
-                                        In Progress
+                                        className='timeline-badge in-progress'>
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
                                       <div className='timeline-badge planned w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
@@ -527,10 +527,10 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'>
-                                        In Progress
+                                        className='timeline-badge in-progress'>
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
                                       <div className='timeline-badge planned  w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
@@ -556,10 +556,10 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'>
-                                        In Progress
+                                        className='timeline-badge in-progress'>
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
                                       <div className='timeline-badge planned w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
@@ -582,10 +582,10 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'>
-                                        In Progress
+                                        className='timeline-badge in-progress'>
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete'>Complete</div>
+                                      <div className='timeline-badge complete w-condition-invisible'>Complete</div>
                                       <div className='timeline-badge planned  w-condition-invisible'>Planned</div>
                                     </div>
                                     <div className='div-block-34'>
@@ -647,11 +647,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress  w-condition-invisible'
+                                        className='timeline-badge in-progress'
                                         aria-hidden='true'>
-                                        In Progress
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete' aria-hidden='true'>
+                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned w-condition-invisible' aria-hidden='true'>
@@ -683,11 +683,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'
+                                        className='timeline-badge in-progress'
                                         aria-hidden='true'>
-                                        In Progress
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete ' aria-hidden='true'>
+                                      <div className='timeline-badge complete w-condition-invisible ' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned w-condition-invisible' aria-hidden='true'>
@@ -716,11 +716,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'
+                                        className='timeline-badge in-progress'
                                         aria-hidden='true'>
-                                        In Progress
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete' aria-hidden='true'>
+                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned  w-condition-invisible' aria-hidden='true'>
@@ -749,11 +749,11 @@ const Roadmap = () => {
                                         //   opacity: 0.829957;
                                         //   will-change: opacity, transform;
                                         // '
-                                        className='timeline-badge in-progress w-condition-invisible'
+                                        className='timeline-badge in-progress'
                                         aria-hidden='true'>
-                                        In Progress
+                                        On-going
                                       </div>
-                                      <div className='timeline-badge complete' aria-hidden='true'>
+                                      <div className='timeline-badge complete w-condition-invisible' aria-hidden='true'>
                                         Complete
                                       </div>
                                       <div className='timeline-badge planned  w-condition-invisible' aria-hidden='true'>

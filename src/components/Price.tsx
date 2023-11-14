@@ -31,7 +31,7 @@ const Price = () => {
                 </div>
                 <div data-w-id='de947c4c-80db-5935-3de1-5f2f466866db' className='div-block-4'>
                   <div id='w-node-e6186e2d-242a-00fc-1d45-445c77334285-1c48dc11' className='stat-wrapper _1'>
-                    <div className='label'>Tolal supply</div>
+                    <div className='label'>Total supply</div>
                     <div id='total_supply' className='stat-large extra-height'>
                       <span className='text-span-2'>
                         <sup className='superscript'></sup>
@@ -67,9 +67,8 @@ const Price = () => {
                 </div>
                 <div className='div-block-20'>
                   <a href='https://t.me/CompareAi_Portal' target='_blank' className='button-primary w-inline-block'>
-                    <div className='button-text'>Invest</div>
+                    <div className='button-text'>Etherscan</div>
                   </a>
-                  <div className='text-size-medium text-color-white'>Come join Sphere in a sea of liquidity.</div>
                 </div>
               </div>
             </div>
