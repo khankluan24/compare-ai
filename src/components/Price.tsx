@@ -66,7 +66,7 @@ const Price = () => {
                   </div>
                 </div>
                 <div className='div-block-20'>
-                  <a href='https://t.me/CompareAi_Portal' target='_blank' className='button-primary w-inline-block'>
+                  <a href='#' className='button-primary w-inline-block'>
                     <div className='button-text'>Etherscan</div>
                   </a>
                 </div>
