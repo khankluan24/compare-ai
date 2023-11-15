@@ -58,7 +58,7 @@ const Menu = () => {
                                     <div>Roadmap</div>
                                   </a>
                                 </div>
-                                <a href='#' target='_blank' className='button-primary is-in-nav is-in-mobile w-inline-block'>
+                                <a href='https://docs.compareai.bot/' target='_blank' className='button-primary is-in-nav is-in-mobile w-inline-block'>
                                   <div className='button-text'>White Paper</div>
                                 </a>
                                 <div className='w-layout-grid social-link-list mobile'>
@@ -97,7 +97,7 @@ const Menu = () => {
                       css={[styles.display(isShowNav)]}
                       onClick={onClickMenu}></div>
                   </div>
-                  <a href='#' target='_blank' className='button-primary is-in-nav w-inline-block'>
+                  <a href='https://docs.compareai.bot/' target='_blank' className='button-primary is-in-nav w-inline-block'>
                     <div className='button-text'>White Paper</div>
                   </a>
                   <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block cursor-default'>
