@@ -8299,3 +8299,11 @@ textarea.w-select {
   will-change: scroll-position;
   transition: all 0.3s ease-in;
 }
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}

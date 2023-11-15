@@ -72,7 +72,7 @@ const Menu = () => {
                                   </a>
                                   <a
                                     id='w-node-b87d70e6-4c6b-380a-71c4-72a39b280e48-6d0eefca'
-                                    href='https://twitter.com/CompareAi'
+                                    href='https://twitter.com/CompareAi_'
                                     target='_blank'
                                     className='social-link-wrappper w-inline-block'>
                                     <Image src='/X.png' alt='close' width={18} height={18}></Image>
@@ -100,8 +100,8 @@ const Menu = () => {
                   <a href='#' target='_blank' className='button-primary is-in-nav w-inline-block'>
                     <div className='button-text'>White Paper</div>
                   </a>
-                  <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block'>
-                    <div className='menu-icon4_wrapper' onClick={onClickMenu}>
+                  <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block cursor-default'>
+                    <div className='menu-icon4_wrapper cursor-pointer' onClick={onClickMenu}>
                       <div className='menu-icon4_line-top-2'></div>
                       <div className='menu-icon4_line-middle-2'>
                         <div className='menu-icon_line-middle-top'></div>

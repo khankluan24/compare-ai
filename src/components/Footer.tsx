@@ -36,7 +36,7 @@ const Footer = () => {
                   </a>
                   <a
                     id='w-node-_5c7f0193-06f6-b300-36ad-360557e783c9-57e783b4'
-                    href='https://twitter.com/CompareAi'
+                    href='https://twitter.com/CompareAi_'
                     target='_blank'
                     className='social-link-wrappper w-inline-block'>
                     <Image src='/X.png' alt='close' width={18} height={18}></Image>
