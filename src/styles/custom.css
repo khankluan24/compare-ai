@@ -3397,10 +3397,7 @@ textarea.w-select {
 
 .image-5.certik,
 .image-5.sf,
-.image-5.prisma {
-  max-height: 80px;
-}
-
+.image-5.prisma,
 .image-5.obsidian {
   max-height: 160px;
 }
@@ -4839,6 +4836,10 @@ textarea.w-select {
   line-height: 16px;
 }
 
+.paragraph-2.w-richtex p {
+  font-size: 14px;
+}
+
 .highlight-item {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
@@ -4873,7 +4874,7 @@ textarea.w-select {
   margin-top: 0.1rem;
   margin-bottom: 0.5rem;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .text-block-13 {
@@ -8306,4 +8307,14 @@ textarea.w-select {
 
 .cursor-pointer {
   cursor: pointer !important;
+}
+
+.glass-panel:hover .shopper-ai {
+  color: orange;
+  text-shadow: 0px 0px 30px orange;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in-out;
+  font-style: italic;
 }

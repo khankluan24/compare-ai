@@ -36,15 +36,19 @@ const Products = () => {
               </div>
             </div>
             <div className='w-layout-grid security-wrapper'>
-              <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b27-1c48dc11' className='glass-panel padding-2rem'>
-                <div className='label text-align-center text-color-white text-weight-regular'>ShopperAI</div>
+              <a
+                id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b27-1c48dc11'
+                href='https://t.me/ShopperAIBot'
+                target='_blank'
+                className='glass-panel padding-2rem link-block-6'>
+                <div className='label text-align-center text-color-white text-weight-regular shopper-ai'>ShopperAI</div>
                 <div className='div-block-14'>
                   <img src='./shoppe-ai.png' loading='lazy' alt='' className='image-5 obsidian' />
                 </div>
                 <div data-w-id='52474d49-5c2c-509e-003b-d69c217d672a' className='check-wrapper'>
                   <CheckIcon sx={{ color: 'white' }}></CheckIcon>
                 </div>
-              </div>
+              </a>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b2c-1c48dc11' className='glass-panel padding-2rem'>
                 <div className='label text-align-center text-color-white text-weight-regular'>ScanAI</div>
                 <div className='div-block-14'>

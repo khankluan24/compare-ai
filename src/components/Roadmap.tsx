@@ -590,9 +590,6 @@ const Roadmap = () => {
                                     </div>
                                     <div className='div-block-34'>
                                       <div className='text-block-12'>Testnet for ScanAI and developing SolisAI</div>
-                                      <div className='paragraph-2 w-richtext'>
-                                        <p></p>
-                                      </div>
                                     </div>
                                   </div>
                                 </div>

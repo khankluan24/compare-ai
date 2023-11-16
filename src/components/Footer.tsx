@@ -1,3 +1,4 @@
+import EmailIcon from '@mui/icons-material/Email';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import Image from 'next/image';
 
@@ -41,6 +42,10 @@ const Footer = () => {
                     className='social-link-wrappper w-inline-block'>
                     <Image src='/X.png' alt='close' width={18} height={18}></Image>
                     <div className='social-link-text'>Twitter</div>
+                  </a>
+                  <a href='mailto:support@compareai.bot' className='social-link-wrappper w-inline-block'>
+                    <EmailIcon />
+                    <div className='social-link-text'>Support Email</div>
                   </a>
                 </div>
               </div>
