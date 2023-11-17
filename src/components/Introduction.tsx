@@ -26,7 +26,7 @@ const Introduction = () => {
                 <div className='layout25_image-wrapper'>
                   <a className='w-inline-block w-lightbox' aria-label='open lightbox' aria-haspopup='dialog'>
                     <img
-                      src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62ab55219cbbe9277ee695cb_Screen Shot 2022-06-16 at 12.06.34 PM.png'
+                      src='./banner.png'
                       loading='lazy'
                       sizes='(max-width: 479px) 76vw, (max-width: 767px) 81vw, (max-width: 991px) 83vw, 37vw'
                       srcSet='
