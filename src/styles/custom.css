@@ -3371,6 +3371,12 @@ textarea.w-select {
   background-image: radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-panel:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .glass-panel.padding-2rem {
@@ -3378,7 +3384,7 @@ textarea.w-select {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem;
+  padding: 1.4rem 2rem;
   display: flex;
   position: relative;
 }
@@ -3393,6 +3399,7 @@ textarea.w-select {
   object-fit: contain;
   padding-top: 0;
   position: static;
+  /* transition: all .3s ease-in-out; */
 }
 
 .image-5.certik,
@@ -8318,3 +8325,24 @@ textarea.w-select {
   transition: all 0.3s ease-in-out;
   font-style: italic;
 }
+
+.glass-panel .slogan {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.glass-panel:first-child .slogan {
+  margin-top: 0;
+  line-height: 3;
+}
+
+/* .glass-panel:hover .div-block-14 .image-5 {
+  transform: translateY(-50px);
+}
+
+.glass-panel:hover .label {
+  transform: translateY(-50px);
+  
+} */

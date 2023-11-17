@@ -10,9 +10,8 @@ const Header = () => {
               <div className='div-block-3'>
                 <div className='max-width-large'>
                   <div className='margin-bottom margin-large'>
-                    <p className='label text-align-left text-color-white text-weight-regular'>AI-POWERED SHOPPING AT YOUR TIPS</p>
                     <h1 className='text-color-white heading-xxhuge gradient-is-whiteblue'>COMPARE-AI</h1>
-                    <p className='text-size-large text-color-white'>Find the best deals for any product with our Al-powered Telegram bot!</p>
+                    <p className='text-size-large text-color-white'>Unleash the power of comparison with CompareAi</p>
                   </div>
                   <div className='margin-top margin-medium'>
                     <div className='button-bar'>

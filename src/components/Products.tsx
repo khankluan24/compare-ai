@@ -48,6 +48,7 @@ const Products = () => {
                 <div data-w-id='52474d49-5c2c-509e-003b-d69c217d672a' className='check-wrapper'>
                   <CheckIcon sx={{ color: 'white' }}></CheckIcon>
                 </div>
+                <span className='slogan'>Find the best deals</span>
               </a>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b2c-1c48dc11' className='glass-panel padding-2rem'>
                 <div className='label text-align-center text-color-white text-weight-regular'>ScanAI</div>
@@ -57,6 +58,7 @@ const Products = () => {
                 <div data-w-id='e21688b8-d833-1458-a074-d4d0b2841c88' className='check-wrapper-none'>
                   <Image src={LoadingImage} width={23} height={23} alt=''></Image>
                 </div>
+                <span className='slogan'>Unlocking Insights, Empowering Decisions</span>
               </div>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b31-1c48dc11' className='glass-panel padding-2rem'>
                 <div className='label text-align-center text-color-white text-weight-regular'>SolisAI</div>
@@ -66,6 +68,7 @@ const Products = () => {
                 <div data-w-id='ea893e35-5778-cd3f-bb9a-c09561c543a1' className='check-wrapper-none'>
                   <Image src={LoadingImage} width={23} height={23} alt=''></Image>
                 </div>
+                <span className='slogan'>Your Beacon in the Crypto Storm</span>
               </div>
               <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b36-1c48dc11' className='glass-panel padding-2rem'>
                 <div className='label text-align-center text-color-white text-weight-regular'>Eva Assistant</div>
@@ -75,6 +78,7 @@ const Products = () => {
                 <div data-w-id='69d5285e-06a2-2318-25b7-f0921ea97ac0' className='check-wrapper-none'>
                   <Image src={LoadingImage} width={23} height={23} alt=''></Image>
                 </div>
+                <span className='slogan'>Your 24/7 Crypto Investment Expert</span>
               </div>
             </div>
           </div>
