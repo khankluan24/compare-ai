@@ -49,7 +49,7 @@ const Price = () => {
                       </span>
                       <span></span>
                       <span className='text-span'>
-                        <sup className='superscript-2'>CAi</sup>
+                        <sup className='superscript-2'>CAI</sup>
                       </span>
                     </div>
                   </div>
