@@ -1,6 +1,5 @@
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { IconButton, Snackbar } from '@mui/material';
-import Slide from '@mui/material/Slide';
 import { useState } from 'react';
 
 /* eslint-disable @next/next/no-img-element */
