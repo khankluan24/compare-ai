@@ -11,7 +11,6 @@ import Vision from '@/components/Vision';
 
 export default function Home() {
   const [scrollPosition, setPosition] = useState({ scrollY: 0 });
-  console.log('🚀 ~ file: index.tsx:14 ~ Home ~ scrollPosition:', scrollPosition);
 
   useEffect(() => {
     function updatePosition() {

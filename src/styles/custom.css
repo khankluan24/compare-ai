@@ -8347,16 +8347,12 @@ textarea.w-select {
   margin-top: 1rem;
 }
 
-.scan-ai > svg {
-  cursor: pointer;
-  margin-left: 8px;
+.scan-ai > button {
+  color: white;
 }
 
 @media screen  and (max-width: 614px) {
   .scan-ai {
       flex-direction: column;
-  }
-  .scan-ai > span {
-    margin-bottom: 1rem;
   }
 }
