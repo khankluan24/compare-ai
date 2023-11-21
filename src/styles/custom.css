@@ -2851,7 +2851,7 @@ textarea.w-select {
 }
 
 .section-layout192.margin-vertical.margin-xhuge {
-  margin-top: 15rem;
+  margin-top: 12rem;
   margin-bottom: 15rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -8337,11 +8337,26 @@ textarea.w-select {
   line-height: 3;
 }
 
-/* .glass-panel:hover .div-block-14 .image-5 {
-  transform: translateY(-50px);
+.scan-ai {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 1rem;
 }
 
-.glass-panel:hover .label {
-  transform: translateY(-50px);
-  
-} */
+.scan-ai > svg {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+@media screen  and (max-width: 614px) {
+  .scan-ai {
+      flex-direction: column;
+  }
+  .scan-ai > span {
+    margin-bottom: 1rem;
+  }
+}

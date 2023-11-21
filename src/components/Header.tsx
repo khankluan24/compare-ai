@@ -15,7 +15,10 @@ const Header = () => {
                   </div>
                   <div className='margin-top margin-medium'>
                     <div className='button-bar'>
-                      <a href='#' className='button-primary w-inline-block'>
+                      <a
+                        href='https://app.uniswap.org/swap?outputCurrency=0x8B17F620CA072EC95d4D1c85ecA11a65282B4104&chain=ethereum'
+                        target='_blank'
+                        className='button-primary w-inline-block'>
                         <div className='button-text'>Invest</div>
                       </a>
                       <a href='#' className='button-secondary w-inline-block'>
