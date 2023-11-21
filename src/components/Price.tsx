@@ -66,7 +66,7 @@ const Price = () => {
                   </div>
                 </div>
                 <div className='div-block-20'>
-                  <a target="_blank" href='https://etherscan.io/address/0x8b17f620ca072ec95d4d1c85eca11a65282b4104' className='button-primary w-inline-block'>
+                  <a target='_blank' href='https://etherscan.io/address/0x8b17f620ca072ec95d4d1c85eca11a65282b4104' className='button-primary w-inline-block'>
                     <div className='button-text'>Etherscan</div>
                   </a>
                 </div>
