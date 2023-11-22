@@ -22,7 +22,7 @@ const Header = () => {
                         <div className='button-text'>Invest</div>
                       </a>
                       <a
-                        href='https://www.dextools.io/app/en/ether/pair-explorer/0x073916e6ad1373ae6fa8a38a5c6c1e42ff22cab5'
+                        href='https://www.dextools.io/app/en/ether/pair-explorer/0xdf41310dd5324760549a8f8643f3d3f202ab358b'
                         target='_blank'
                         className='button-secondary w-inline-block'>
                         <div className='button-text'>View Charts</div>
