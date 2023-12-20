@@ -8485,21 +8485,27 @@ textarea.w-select {
   .nav-wrapper {
     padding: 1rem 0;
   }
+
   .hidden-desktop {
     display: flex;
   }
+
   .show-desktop {
     display: none;
   }
-  @media screen and (max-width: 614px) {
-    .scan-ai {
-      flex-direction: column;
-    }  }
+}
+
+@media screen and (max-width: 614px) {
+  .scan-ai {
+    flex-direction: column;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .page-padding.hero {
     margin-top: 0 !important;
   }
+
   #contender>.page-padding {
     margin-bottom: 9rem;
   }
@@ -8514,17 +8520,12 @@ textarea.w-select {
     justify-content: center;
     width: 100%;
   }
-}
+
+  #roadmap {
+    margin-bottom: 3rem;
+  }
 }
 
-/* .section-menu {
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  backdrop-filter: blur(20px);
-  background-image: radial-gradient(circle at 0 0, rgba(255, 255, 255, 0.15), rgba(7, 12, 56, 0.9) 94%);
-} */
 
 .menu-group-icon {
   display: grid;

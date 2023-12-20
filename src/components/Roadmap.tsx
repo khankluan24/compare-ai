@@ -157,11 +157,6 @@ const Roadmap = () => {
           </div>
         </div>
       </section>
-      <div className='section-timeline'>
-        <div className='page-padding hero'>
-          <div className='container-large'></div>
-        </div>
-      </div>
     </>
   );
 };
