@@ -52,7 +52,7 @@ const Products = () => {
                   <span className='slogan'>Find the best deals</span>
                 </div>
               </a>
-              <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b2c-1c48dc11' className='glass-bd-br glass-panel padding-2rem'>
+              <div id='w-node-_1e6b5064-950b-e150-31dc-8acaee128b2c-1c48dc11' className='glass-bd-b glass-panel padding-2rem'>
                 <div className='glass-panel-child'>
                   <div>
                     <img src='./solis-ai.png' loading='lazy' alt='' className='image-5 certik' />
