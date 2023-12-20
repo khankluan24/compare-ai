@@ -24,7 +24,7 @@ const Menu = () => {
   };
 
   return (
-    <div>
+    <div className='section-menu'>
       <section className='section-contact-modal3'>
         <div className='page-padding-2'>
           <div className='container-large'>
@@ -33,8 +33,27 @@ const Menu = () => {
                 <a href='/' aria-current='page' className='navbar6_logo-link w-nav-brand w--current'>
                   <Image src='/logo.png' alt='close' width={150} height={70}></Image>
                 </a>
+                <div className='show-desktop'>
+                  <div className='nav-link-list-hor'>
+                    <a href='#header' aria-current='page' className='nav-link w-inline-block w--current link--current'>
+                      <div>Home</div>
+                    </a>
+                    <a href='#introduction' className='nav-link w-inline-block link--current'>
+                      <div>Introduction</div>
+                    </a>
+                    <a href='#products' className='nav-link hidden w-inline-block  link--current'>
+                      <div>Products</div>
+                    </a>
+                    <a href='#price' className='nav-link w-inline-block link--current'>
+                      <div>Tokenomics</div>
+                    </a>
+                    <a href='#roadmap' className='nav-link w-inline-block link--current'>
+                      <div>Roadmap</div>
+                    </a>
+                  </div>
+                </div>
                 <div className='button-row is-button-row-center'>
-                  <div className='contact-modal3_component-2' css={[styles.display(isShowNav)]}>
+                  <div className='contact-modal3_component-2 ' css={[styles.display(isShowNav)]}>
                     <div className='contact-modal3_content-wrapper-2' css={styles.contactModal3ContentWrapper2(isShowChild)}>
                       <div className='margin-bottom margin-large'>
                         <div className='text-align-center-2'>
@@ -105,7 +124,21 @@ const Menu = () => {
                   <a href='https://docs.compareai.bot/' target='_blank' className='button-primary is-in-nav w-inline-block'>
                     <div className='button-text'>White Paper</div>
                   </a>
-                  <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block cursor-default'>
+                  <div className='show-desktop'>
+                    <div className='menu-group-icon'>
+                      <a
+                        id='w-node-b87d70e6-4c6b-380a-71c4-72a39b280e48-6d0eefca'
+                        href='https://twitter.com/CompareAi_'
+                        target='_blank'
+                        className='social-link-wrappper-menu '>
+                        <Image src='/X.png' alt='close' width={18} height={18}></Image>
+                      </a>
+                      <a href='mailto:support@compareai.bot' className='social-link-wrappper-menu'>
+                        <TelegramIcon></TelegramIcon>
+                      </a>
+                    </div>
+                  </div>
+                  <a data-w-id='58ce1a83-824e-d1ff-e9ba-adf06d0eefe1' className='link-block-3 w-inline-block cursor-default  hidden-desktop'>
                     <div className='menu-icon4_wrapper cursor-pointer' onClick={onClickMenu}>
                       <div className='menu-icon4_line-top-2'></div>
                       <div className='menu-icon4_line-middle-2'>

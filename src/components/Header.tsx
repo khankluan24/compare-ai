@@ -19,13 +19,13 @@ const Header = () => {
                         href='https://app.uniswap.org/swap?outputCurrency=0x8B17F620CA072EC95d4D1c85ecA11a65282B4104&chain=ethereum'
                         target='_blank'
                         className='button-primary w-inline-block'>
-                        <div className='button-text'>Invest</div>
+                        <div className='button-text'>Buy</div>
                       </a>
                       <a
                         href='https://www.dextools.io/app/en/ether/pair-explorer/0xdf41310dd5324760549a8f8643f3d3f202ab358b'
                         target='_blank'
                         className='button-secondary w-inline-block'>
-                        <div className='button-text'>View Charts</div>
+                        <div className='button-text'>Ace</div>
                       </a>
                     </div>
                   </div>
