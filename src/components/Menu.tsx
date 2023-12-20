@@ -31,7 +31,7 @@ const Menu = () => {
             <div className='padding-vertical'>
               <div className='nav-wrapper'>
                 <a href='/' aria-current='page' className='navbar6_logo-link w-nav-brand w--current'>
-                  <Image src='/logo.png' alt='close' width={150} height={70}></Image>
+                  <Image src='/logo.png' alt='close' width={100} height={100}></Image>
                 </a>
                 <div className='show-desktop'>
                   <div className='nav-link-list-hor'>
@@ -60,7 +60,7 @@ const Menu = () => {
                           <div className='max-width-large-2 align-center'>
                             <div className='margin-bottom margin-xsmall'>
                               <div className='div-block-19'>
-                                <Image src='/logo.png' alt='close' width={150} height={70}></Image>
+                                <Image src='/logo.png' alt='close' width={120} height={120}></Image>
                                 <div className='nav-link-list'>
                                   <a href='#header' aria-current='page' className='nav-link w-inline-block w--current'>
                                     <div>Home</div>
@@ -84,7 +84,7 @@ const Menu = () => {
                                 <div className='w-layout-grid social-link-list mobile'>
                                   <a
                                     id='w-node-b87d70e6-4c6b-380a-71c4-72a39b280e44-6d0eefca'
-                                    href='https://t.me/CompareAi_Portal'
+                                    href='https://t.me/AceBot_Portal'
                                     target='_blank'
                                     className='social-link-wrappper w-inline-block'>
                                     <TelegramIcon></TelegramIcon>
@@ -92,13 +92,13 @@ const Menu = () => {
                                   </a>
                                   <a
                                     id='w-node-b87d70e6-4c6b-380a-71c4-72a39b280e48-6d0eefca'
-                                    href='https://twitter.com/CompareAi_'
+                                    href='https://twitter.com/Acebot_ERC'
                                     target='_blank'
                                     className='social-link-wrappper w-inline-block'>
                                     <Image src='/X.png' alt='close' width={18} height={18}></Image>
                                     <div className='social-link-text'>Twitter</div>
                                   </a>
-                                  <a href='mailto:support@compareai.bot' className='social-link-wrappper w-inline-block'>
+                                  <a href='mailto:support@acebot.tech' className='social-link-wrappper w-inline-block'>
                                     <EmailIcon />
                                     <div className='social-link-text'>Support Email</div>
                                   </a>
@@ -128,12 +128,12 @@ const Menu = () => {
                     <div className='menu-group-icon'>
                       <a
                         id='w-node-b87d70e6-4c6b-380a-71c4-72a39b280e48-6d0eefca'
-                        href='https://twitter.com/CompareAi_'
+                        href='https://twitter.com/Acebot_ERC'
                         target='_blank'
                         className='social-link-wrappper-menu '>
                         <Image src='/X.png' alt='close' width={18} height={18}></Image>
                       </a>
-                      <a href='mailto:support@compareai.bot' className='social-link-wrappper-menu'>
+                      <a href='mailto:support@acebot.tech' className='social-link-wrappper-menu'>
                         <TelegramIcon></TelegramIcon>
                       </a>
                     </div>
