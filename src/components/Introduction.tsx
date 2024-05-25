@@ -8,18 +8,18 @@ const Introduction = () => {
             <div className='feature1-wrapper'>
               <div className='w-layout-grid layout25_component'>
                 <div className='layout25_content'>
-                  <div className='margin-bottom margin-xsmall'>
-                    <div className='label'>{"Let's Dig In"}</div>
-                  </div>
                   <div className='margin-bottom margin-small'>
-                    <h2 className='heading'>Start Here to Compare-AI</h2>
+                    <h2 className='heading' style={{ color: '#FCC65A' }}>
+                      Let&apos;s get started
+                    </h2>
                   </div>
                   <div className='margin-bottom margin-medium'>
                     <p className='text-size-medium text-color-white'>
-                      CompareAl is an Al platform that provides a versatile digital assistant to cater to your diverse and complex comparison needs. It utilizes
-                      artificial intelligence to understand your needs and personal preferences, providing personalized analysis and recommendations. CompareAl
-                      believes that the power of data and Al can be used to illuminate every decision, not just in business but also in everyday life. With its
-                      technology, CompareAl is committed to giving you the confidence needed to master every choice, at every moment.
+                      Acebot is a cutting-edge bot that leads the way in seamless integration and support across multiple blockchains. With a forward-thinking
+                      approach, Acebot pioneers the inclusion of new chains, catering to the diverse investment needs of users looking to diversify their
+                      portfolios. Its innovative technology provides users with a dynamic and versatile tool to enhance their investment strategies across
+                      multiple chains, keeping them ahead in the ever-evolving landscape of cryptocurrency investments. Join Acebot and stay ahead in the world
+                      of cryptocurrency investments.
                     </p>
                   </div>
                 </div>

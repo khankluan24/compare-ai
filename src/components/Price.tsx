@@ -1,43 +1,22 @@
-import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import { IconButton, Snackbar } from '@mui/material';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 /* eslint-disable @next/next/no-img-element */
 const Price = () => {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
-  const handleClick = () => {
-    setOpen(true);
-    navigator.clipboard.writeText('0x8B17F620CA072EC95d4D1c85ecA11a65282B4104');
-  };
+  // const handleClick = () => {
+  //   setOpen(true);
+  //   navigator.clipboard.writeText('0x8B17F620CA072EC95d4D1c85ecA11a65282B4104');
+  // };
   return (
     <section className='section-layout138' id='price'>
-      <img
-        src='./Sphere Finance _ The S&amp;P 500 of Crypto_files/62795f7bececb257803ea5c6_sphere@2x.png'
-        loading='lazy'
-        sizes='(max-width: 767px) 100vw, 656px'
-        srcSet='
-        https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x-p-500.png 500w,
-        https://assets-global.website-files.com/62794603633d33e91a3daa49/62795f7bececb257803ea5c6_sphere%402x.png       520w
-      '
-        alt=''
-        className='image-7'
-      />
       <div className='page-padding'>
         <div className='container-large'>
           <div className='padding-vertical'>
             <div className='text-align-center'>
               <div className='max-width-xlarge'>
-                <div className='margin-bottom margin-xsmall'>
-                  <div className='label'>CompareAI</div>
-                </div>
                 <div className='margin-bottom margin-small'>
-                  <h2 className='text-color-white heading-xxhuge gradient-is-whiteblue'>Community & Development</h2>
-                </div>
-                <div className='margin-bottom margin-small'>
-                  <p className='text-size-medium text-color-white'>
-                    Believe in CompareAi as we work together to build a strong platform for developing reliable and innovative AI products.
-                  </p>
+                  <h2 className='text-color-white heading-xxhuge gradient-is-whiteblue'>Tokenomics</h2>
                 </div>
                 <div data-w-id='de947c4c-80db-5935-3de1-5f2f466866db' className='div-block-4'>
                   <div id='w-node-e6186e2d-242a-00fc-1d45-445c77334285-1c48dc11' className='stat-wrapper _1'>
@@ -59,7 +38,7 @@ const Price = () => {
                       </span>
                       <span></span>
                       <span className='text-span'>
-                        <sup className='superscript-2'>CAI</sup>
+                        <sup className='superscript-2'>ACE</sup>
                       </span>
                     </div>
                   </div>
@@ -80,19 +59,6 @@ const Price = () => {
                     <div className='button-text'>Etherscan</div>
                   </a>
                 </div>
-                <div className='scan-ai'>
-                  <span>CA: 0x8B17F620CA072EC95d4D1c85ecA11a65282B4104</span>
-                  <IconButton onClick={handleClick}>
-                    <ContentCopyIcon />
-                  </IconButton>
-                </div>
-                <Snackbar
-                  message='Copy text successfully'
-                  anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-                  autoHideDuration={1000}
-                  onClose={() => setOpen(false)}
-                  open={open}
-                />
               </div>
             </div>
           </div>
